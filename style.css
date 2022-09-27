@@ -140,8 +140,8 @@ body {
   display: block;
 }
 
-.portfolio-technologies p{
-  display: inline-block;
+.portfolio-technologies ul li {
+  list-style: none;
   float: left;
   margin-right: 10px;
   border-radius: 8px;
@@ -150,12 +150,14 @@ body {
   font-size: 12px;
   font-weight: 500px;
   line-height: 16px;
-  letter-spacing: 3%;
+  letter-spacing: 3%;   
   padding: 4px 12px;
+  text-transform: lowercase;
 }
 
 .portfolio-technologies{
   margin-bottom: 10px;
+  padding-left: 0;
 }
 
 /* #portfolio-technologies li {
